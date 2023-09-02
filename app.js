@@ -32,14 +32,6 @@ tl.from(".hero-footer a",{
     duration:1,
     stagger:.3
 })
-// tl.from(".text-div p span",{
-    
-//     opacity:0,
-//     duration:1,
-//     stagger:.015,
-//     scrollTrigger:{
-//         trigger:".text-div p span",
-//     }
-// })
+
 
 
