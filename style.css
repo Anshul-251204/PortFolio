@@ -16,6 +16,7 @@ html,body{
 .main{
     position: relative;
     width: 100%;
+    height: fit-content;
 }
 .flex{
     display: flex;
@@ -31,6 +32,7 @@ a{
     color: white;
     background-color: black;
     transition: all ease .5s;
+    
 }
 .btn:hover{
     color: black;
@@ -59,6 +61,17 @@ a{
     width: 100%;
 }
 
+
+.cir{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    z-index: 55;
+    
+    
+}
 
 
 
@@ -154,6 +167,7 @@ img{
     flex-basis: 40%;
 }
 .text-div p {
+    /* width: 60%; */
     margin: 1vw 0;
     font-size: 1.3vw;
     line-height: 1.5;
